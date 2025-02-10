@@ -4,11 +4,16 @@ log
 config (이메일.유저명 등록. 1회만 하면됨)
 add
 commit (-m)
-checkout 
+checkout ㄴ
 $ git config --list 설정한 옵션리스트 보는것
-push (-u origin main)
+push (-u origin main) (처음할떄는 origin main 해야함)  -u 옵션 upstream
 <<<<<<< HEAD
 pull, fetch
+git clone 주소
+git remote remove orgin 
+
+
+
 =======
 fetch
 pull
@@ -16,3 +21,12 @@ pull
 원격에서 수정되었을때
 git fetch로 살펴본후 git pull로 다운로드
 
+esc ; q
+wq:
+
+다른사람의 git을 참조할때
+1.  clone 주소 .
+2.  remote remove orgin (내가 클론해온 파일의 원격 리포짓주소를 삭제)
+     config --list로 변경되었는지 체크가능
+3. git remote add origin 주소
+4. git pusj -u origin main
