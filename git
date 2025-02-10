@@ -1,0 +1,13 @@
+init
+status
+log
+config (이메일.유저명 등록. 1회만 하면됨)
+add
+commit (-m)
+checkout 
+$ git config --list 설정한 옵션리스트 보는것
+push (-u origin main)
+
+원격에서 수정되었을때
+git fetch로 살펴본후 git pull로 다운로드
+
