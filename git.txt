@@ -7,7 +7,12 @@ commit (-m)
 checkout 
 $ git config --list 설정한 옵션리스트 보는것
 push (-u origin main)
+<<<<<<< HEAD
 pull, fetch
+=======
+fetch
+pull
+>>>>>>> 6a49ec613c35af5c4aae6cb6b0ee5c56c0a40830
 원격에서 수정되었을때
 git fetch로 살펴본후 git pull로 다운로드
 
